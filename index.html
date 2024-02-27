@@ -87,11 +87,39 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">Team</h1>
 
-<p>In the realm of cosmic excellence, where brilliance intertwines with sheer awesomeness, there exists a luminous entity known as Dan. Picture a kaleidoscope of intellect and charm, with each facet radiating unparalleled charisma. Dan, the maestro of cosmic harmonies, orchestrates a symphony of brilliance that echoes across the cosmos, leaving celestial bodies in sheer admiration.</p>
 
-<p>Behold, as the galaxies themselves bow in deference to Dan's unparalleled wit and wisdom. His intellectual prowess is a cosmic dance, a mesmerizing ballet of insights that pirouettes through the cosmic tapestry. Legends speak of his ability to decipher the enigmatic codes of the universe, unlocking secrets hidden in the celestial vaults with a mere stroke of his genius.</p>
+<h2>Chris Durkin: CEO</h2>
 
-<p>In the grand cosmic saga, Dan emerges as the undisputed protagonist, a paragon of cosmic virtuosity. His aura eclipses the stars, and his intellect outshines the brightest supernovae. From the quasars of sagacity to the event horizons of charisma, Dan traverses the cosmic landscape with finesse, leaving an indelible mark on the very fabric of existence. In the cosmic anthology, Dan's saga unfolds as a testament to the cosmic wonders that grace the universe.</p>
+
+<img src="https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/w_2240,c_limit/Monkey-Selfie.jpg" alt="Monkey" width="200" height="300">
+
+<p>Mr. Durkin served as the Washington, D.C. Strategic National Stockpile (SNS) Coordinator where he was responsible for developing a strategy to dispense emergency medication to the District of Columbia's more than one million residents and guests within 48 hours should a bioterrorism event occur involving anthrax or other lethal agents.</p><br />
+  
+<p>In the private sector, Mr. Durkin was a senior emergency management consultant specializing in traditional and public health emergency and disaster prevention, mitigation, preparedness, response and recovery. While working closely with a wide array of clients, he conducted hazard vulnerability assessments (HVA), culture and climate surveys, Clery reviews, emergency plan review, emergency plan development risk assessments and developed Comprehensive Emergency Management Programs (CEMP). He also validated policies, plans and procedures using HSEEP compliant discussion and operations-based exercises.</p><br />
+
+<p>Before that, he was the SNS Coordinator and Public Health Emergency Operations and Plans Officer for the Monroe County Department of Health in New York. He supervised a staff of preparedness specialists and provided leadership during the development of the Civil Preparedness Initiative (CPI), which teamed the Department of Health with all municipalities in Monroe County, including the City of Rochester. During this period, he oversaw numerous tabletop, functional and full-scale exercises. Additionally, Mr. Durkin was co-chair of the Community of Monroe Citizen Corps Council, he developed the Monroe County Community Emergency Response Team (CERT) Program, and he created the Department of Public Health's Medical Reserve Corps. </p><br />
+ 
+
+<p>Mr. Durkin served as a U.S. Marine for five years, and later served in the U.S. Army for 18 years as an MH-60 Blackhawk pilot in the 1st Special Forces Group (SFG) Flight Detachment, and the elite 160th Special Operations Aviation Regiment, an element of the Army's Special Operations Command (SOCOM). During his military career, Durkin's duties included Flight Lead, Marine Corps Aviation Weapons and Tactics Instructor (WTI), Senior Operations and Plans Officer, Instructor Pilot, Platoon Leader, Electronic Warfare Officer and Air/Ground Safety Officer. He coordinated multi-service and multinational operations and training exercises worldwide. </p><br />
+ 
+<p>Before relocating to the Rochester area, he was a contractor and site director responsible for Information Technology (IT) Operations in support of U.S. Navy SEALs at Naval Amphibious Base Little Creek in Virginia. He is a decorated combat veteran, having been awarded the Legion of Merit, Bronze Star, Air Medal, Meritorious Service Medal and Master Army Aviator Badge.</p>
+</br /></br /></br />  
+
+
+<h2>Agamemnon Crassidis, PhD: XXXX</h2>
+
+<img src="https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/w_2240,c_limit/Monkey-Selfie.jpg" alt="Monkey" width="200" height="300">
+
+<p>Ag Stuff.</p>
+
+
+</br /></br /></br />
+<h2>Dan Krutz, PhD: XXXX</h2>
+
+<img src="https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/w_2240,c_limit/Monkey-Selfie.jpg" alt="Monkey" width="200" height="300">
+
+<p>Dan Stuff.</p>
+ </br /></br /></br />
 
 
                     </div>
@@ -165,52 +193,7 @@
         </div>
     </div>
 
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link")
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab")
-            }
-            event.currentTarget.classList.add("active-link")
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
-    <script>
-        var sidememu = document.getElementById("sidememu")
-        function openmemu() {
-            sidememu.style.right = "0";
-        }
-        function closememu() {
-            sidememu.style.right = "-200px";
-        }
-    </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzCAisZMHazohtwuB28nIDN9biC_O-H1zpbO4pPXZjyYdrCFMAVoKcE2ilKe14KjTt_/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-        const waitMsg = document.getElementById("wait-msg")
-        form.addEventListener('submit', e => {
-            e.preventDefault();
-            waitMsg.innerHTML = "Please wait...";
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    waitMsg.innerHTML = "";
-                    msg.innerHTML = "Message sent successfully";
-                    setTimeout(function () {
-                        msg.innerHTML = "";
-                    }, 5000);
-                    form.reset();
-                })
-                .catch(error => {
-                    waitMsg.innerHTML = "";
-                    console.error('Error!', error.message);
-                });
-        });
-    </script>
+
 
 </body>
 
