@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-p:after {
+p:after { /* Add spacing after each paragraph*/
     content: "\00a0"; /* Unicode character for non-breaking space */
     display: block;
     white-space: pre; /* Preserve whitespace */
@@ -14,6 +14,7 @@ p:after {
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background: white;
     color: grey;
@@ -24,9 +25,11 @@ body{
 /*    background-image: url(images/ok_4.jpg);*/
     /* background-size: cover;
     background-position: center; */
+    /*
     background-repeat: no-repeat;
     background-position: right;
     background-size: 80%;
+*/
 }
 @keyframes fadeInUp {
     from {
@@ -54,24 +57,28 @@ body{
     -webkit-animation-duration: 2.5s;
     -webkit-animation-fill-mode: both
 }
+
 .animatedFadeInUp {
     opacity: 0
 }
+
 .fadeInUp {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
+
 .container{
 /*    padding: 10px 10%; */
     /* padding: 0px 10%; */
 }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-/*    background: grey;*/
+    background: black;
 }
 .logo{
     width: 140px;
@@ -94,7 +101,7 @@ nav ul li{
 
 nav ul li a{
 /*    color: #fff;*/
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -145,6 +152,7 @@ nav ul li a:hover::after{
 }
 .about-col-2{
     flex-basis: 60%;
+    padding-left: 150px; /*How far to push margin from the left*/
 }
 .sub-title{
     font-size: 60px;
@@ -322,49 +330,7 @@ nav ul li a:hover::after{
     margin-right: 15px;
     font-size: 25px;
 }
-/*
-.social-icons{
-    margin-top: 30px;
-}
-.social-icons a{
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-.social-icons a:hover{
-    color: #ff004f;
-    transform: translateY(-5px);
-}
-.btn.btn2{
-    display: inline-block;
-    background: #ff004f;
-}
-.contact-right form{
-    width: 100%;
-}
-*/
-/*
-form input,form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
-}
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-*/
+
 .copyright{
     width: 100%;
     text-align: center;
@@ -452,6 +418,9 @@ nav .fa-solid{
         /* background-position: center; */
         background-size: 110%;
     }
+
+/*
+
     @keyframes fadeInUp {
         from {
             transform: translate3d(0,40px,0)
@@ -487,12 +456,15 @@ nav .fa-solid{
         -webkit-animation-name: fadeInUp;
     }
 }
+*/
+/*
 #wait-msg{
     color: #61b752;
     margin-top: -40px;
     display: block;
     padding-bottom: 6%;
 }
+
 #msg{
     color: #61b752;
     margin-top: -40px;
@@ -503,3 +475,4 @@ nav .fa-solid{
         padding-top: 7%;
     }
 }
+*/
