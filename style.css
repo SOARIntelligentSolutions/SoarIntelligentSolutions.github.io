@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins',sans-serif;
-    box-sizing: border-box;
+/*    box-sizing: border-box;*/
 }
 
 p:after { /* Add spacing after each paragraph*/
@@ -68,17 +68,31 @@ body{
     -webkit-animation-name: fadeInUp;
 }
 
+
+
 .container{
 /*    padding: 10px 10%; */
     /* padding: 0px 10%; */
+/*    margin-top: 10%;*/
 }
 
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+/*    justify-content: space-between;*/
+justify-content: center;
     flex-wrap: wrap;
     background: black;
+    
+
+     position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 10px; /* Add padding for better visibility */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+
+
 }
 .logo{
     width: 140px;
@@ -122,21 +136,25 @@ nav ul li a:hover::after{
 .header-text{
 /*    margin-top: 20%;*/
     font-size: 30px;
+    padding-top: 10%; /*Amount of space between the header and top text*/
 }
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+
 }
 .header-text h1 span{
     background: linear-gradient(to right, rgba(255,0,79,1) 38%, rgba(64,88,205,1) 77%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
+
 }
 /* -------about-------- */
 #about{
     /* padding: 80px 0; */
 /*    padding: 40px 0;*/
     color: #ababab;
+    margin-top: 10%;
 }
 .row{
     display: flex;
@@ -152,7 +170,7 @@ nav ul li a:hover::after{
 }
 .about-col-2{
     flex-basis: 60%;
-    padding-left: 150px; /*How far to push margin from the left*/
+    padding-left: 27%; /*How far to push margin from the left*/
 }
 .sub-title{
     font-size: 60px;
