@@ -94,6 +94,12 @@ justify-content: center;
 
 
 }
+
+.mainMessageArea{ /* Information shown at the top of the page under the main title */
+    font-size: 15px;
+}
+
+
 .logo{
     width: 140px;
 }
@@ -154,7 +160,6 @@ nav ul li a:hover::after{
     /* padding: 80px 0; */
 /*    padding: 40px 0;*/
     color: #ababab;
-    margin-top: 10%;
 }
 .row{
     display: flex;
