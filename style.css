@@ -470,6 +470,30 @@ nav .fa-solid{
     }
 
 
+ul {
+      
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Style for list items in the main list */
+    li {
+      margin-left: 20px; /* Adjust the value to control the indentation */
+      position: relative;
+    }
+
+    /* Style for the sublist */
+    ul ul {
+      margin-left: 20px; /* Adjust the value to control the indentation */
+    }
+
+    /* Style for list items in the sublist */
+    ul ul li {
+      margin-left: 20px; /* Adjust the value to control the indentation */
+      position: relative;
+    }
+
+
 /*
 
     @keyframes fadeInUp {
