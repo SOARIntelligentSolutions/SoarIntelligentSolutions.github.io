@@ -183,9 +183,9 @@ nav ul li a:hover::after{
 
 }
 /* -------about-------- */
+
+
 #about{
-    /* padding: 80px 0; */
-/*    padding: 40px 0;*/
     color: #ababab;
 }
 .row{
@@ -213,6 +213,7 @@ nav ul li a:hover::after{
 	-webkit-background-clip: text;
     */
 }
+/*
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -251,6 +252,7 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+*/
 /* -------services--------- */
 /*
 #services{
@@ -291,6 +293,8 @@ nav ul li a:hover::after{
     transform: translate(-10px);
 }
 */
+
+/*
 #portfolio{
     padding: 50px 0;
 }
@@ -365,7 +369,9 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #ff004f;
 }
+*/
 /* ------contact------ */
+/*
 .contact-left{
     flex-basis: 35%;
 }
@@ -380,7 +386,7 @@ nav ul li a:hover::after{
     margin-right: 15px;
     font-size: 25px;
 }
-
+*/
 .copyright{
     width: 100%;
     text-align: center;
