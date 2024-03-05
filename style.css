@@ -240,8 +240,8 @@ nav ul li a:hover::after{
     border-radius: 15px;
 }
 .about-col-2{
-    flex-basis: 60%;
-    padding-left: 27%; /*How far to push margin from the left*/
+    flex-basis: 70%; /* Was 60 */
+    padding-left: 15%; /*How far to push margin from the left*/
 }
 .sub-title{
     font-size: 60px;
