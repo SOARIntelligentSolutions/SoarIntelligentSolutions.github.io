@@ -1,5 +1,4 @@
-
-    /* Style for the main list */
+/* Style for the main list */
     ul {
       
       margin: 0;
@@ -195,8 +194,8 @@ justify-content: center;
 }
 .header-text h1 span{
     background: linear-gradient(to right, rgba(255,0,79,1) 38%, rgba(64,88,205,1) 77%);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 
 }
 /* -------about-------- */
@@ -226,8 +225,8 @@ justify-content: center;
     font-weight: 600;
      color: black; 
 /*    background: linear-gradient(90deg, rgb(154, 59, 218) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
     */
 }
 
@@ -245,7 +244,34 @@ justify-content: center;
 /* ------css for small screen------ */
 
 
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    animation: fadeInRight 1s ease-in-out;
+}
 
+
+nav ul li a{
+/*    color: #fff;*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
 
 
 nav .fa-solid{
@@ -266,15 +292,15 @@ nav .fa-solid{
     }
     .header-text h1 span{
         background: linear-gradient(to right, rgba(255,0,79,1) 38%, rgb(23, 55, 218) 77%);
-	    -webkit-text-fill-color: transparent;
-	    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
     }
     nav .fa-solid{
         display: block;
         font-size: 25px;
     }
     nav ul{
-/*        background: #ff004f; */
+        background: black; /* Change this to fade in background */
         position: fixed;
         top: 0;
         right: -200px;
@@ -323,7 +349,6 @@ nav .fa-solid{
         /* background-position: center; */
         background-size: 110%;
     }
-
 
 
 
