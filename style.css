@@ -218,7 +218,7 @@ justify-content: center;
 }
 .about-col-2{
     flex-basis: 70%; /* Was 60 */
-    padding-left: 15%; /*How far to push margin from the left*/
+    padding-left: 10%; /*How far to push margin from the left*/
 }
 .sub-title{
     font-size: 60px;
